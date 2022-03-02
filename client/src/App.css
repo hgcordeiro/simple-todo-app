@@ -1,0 +1,67 @@
+.app {
+  background: #ffffff;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.done-checkbox {
+  height: 50px;
+  padding: 3px 10px 10px 0px;
+}
+
+.rmv-button {
+  background: #ffffff;
+  border: 1;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 1px 8px 2px 8px;
+  margin: 0;
+}
+
+.todo-input {
+  width: 384px;
+  height: 56px;
+  border: 0;
+  border-bottom: solid;
+  font-size: 18px;
+  padding: 5px 20px 0px 20px;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  font-size: 18px;
+  color: #000;
+  width: 400px;
+  min-height: 56px;
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.todo-list {
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+  
+}
+
+.todo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  padding: 10px 10px 10px 15px;
+  margin: 0 10px 0 10px;
+  word-break: break-all;
+}
